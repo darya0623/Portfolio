@@ -1,6 +1,6 @@
 import React from 'react'
 import PortfolioStyle from "./Pages.module.scss";
-import ForestTravel from "./../images/foresttravel.jpg"
+import Mers from "./../images/mers.jpg"
 
 const Portfolio = () => {
   return (
@@ -13,14 +13,14 @@ const Portfolio = () => {
 
         <section className={PortfolioStyle["article-item"]}>
           <h3 className={PortfolioStyle["title-3"]}>
-            Верстка макета Форест Тревел
+            Верстка и разработка JS логики Mercedes
           </h3>
 
           <div className={PortfolioStyle["article-item-image"]}>
-            <img src={ForestTravel} alt="Верстка макета Форест Тревел" />
+            <img src={Mers} alt="Верстка макета Форест Тревел" />
           </div>
           
-
+          <a target='_blank' href="https://darya0623.github.io/Mercedes/">Смотреть работу</a>
 
         </section>
 
