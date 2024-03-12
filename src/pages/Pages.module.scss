@@ -46,7 +46,12 @@
 }
 
 .article-item-image {
-    height: (100vh / 3);
+    height: (100vh / 2.5);
+    overflow: hidden;
+
+    img{
+        height: 100%;
+    }
 }
 
 .article-item-link {
